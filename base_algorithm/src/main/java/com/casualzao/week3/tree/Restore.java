@@ -1,12 +1,16 @@
 package com.casualzao.week3.tree;
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
+import com.sun.org.apache.xpath.internal.operations.Variable;
+import javafx.util.Pair;
+
 /**
  * @author pcmd
  * @create 2022-10-29 15:50
  */
 public class Restore {
 
-    static class TreeNode {
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
