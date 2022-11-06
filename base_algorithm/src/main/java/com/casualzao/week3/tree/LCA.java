@@ -34,6 +34,7 @@ public class LCA {
 
     /**
      * 深度优先遍历
+     * 向上标记法
      * @param node
      * @return
      */

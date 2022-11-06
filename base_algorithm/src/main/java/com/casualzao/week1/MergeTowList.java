@@ -1,5 +1,7 @@
 package com.casualzao.week1;
 
+import java.util.List;
+
 /**
  * 合并 2 个有序链表
  * @author pcmd
@@ -25,7 +27,17 @@ public class MergeTowList {
 
         }
 
+        public int getVal() {
+            return val;
+        }
 
+        public ListNode getCurrent() {
+            return current;
+        }
+
+        public ListNode getNext() {
+            return next;
+        }
     }
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
@@ -47,5 +59,6 @@ public class MergeTowList {
 
 
     }
+
 
 }
